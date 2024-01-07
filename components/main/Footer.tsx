@@ -46,7 +46,7 @@ const Footer = () => {
             </p>
           </div>
 
-          <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
+          {/* <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
             <div className="font-bold text-[16px]">About</div>
             <p className="flex flex-row items-center my-[15px] cursor-pointer">
               <span className="text-[15px] ml-[6px]">Become Sponsor</span>
@@ -59,7 +59,7 @@ const Footer = () => {
                 prateeksingh9941@gmail.com
               </span>
             </p>
-          </div>
+          </div> */}
         </div>
 
         <div className="mb-[20px] mt-[40px] text-[15px] text-center">
