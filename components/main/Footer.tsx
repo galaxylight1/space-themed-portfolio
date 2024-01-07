@@ -25,7 +25,7 @@ const Footer = () => {
               href="https://github.com/galaxylight1"
             >
               <RxGithubLogo />
-              <span className="text-[15px] ml-[6px]">GitHub</span>
+              <span className="text-[15px] ml-[6px] mt-[2px]">GitHub</span>
             </a>
             <a
               className="flex flex-row items-center my-[15px] cursor-pointer"
@@ -33,7 +33,7 @@ const Footer = () => {
               href="https://leetcode.com/galaxylight/"
             >
               <SiLeetcode />
-              <span className="text-[15px] ml-[6px]">LeetCode</span>
+              <span className="text-[15px] ml-[6px] mt-[2px]">LeetCode</span>
             </a>
             {/* <a
               className="flex flex-row items-center my-[15px] cursor-pointer"
@@ -61,10 +61,10 @@ const Footer = () => {
               href="https://www.linkedin.com/in/prateeksingh9941/"
             >
               <RxLinkedinLogo />
-              <span className="text-[15px] ml-[6px]">LinkedIn</span>
+              <span className="text-[15px] ml-[6px] mt-[2px]">LinkedIn</span>
             </a>
             <p className="flex flex-row items-center my-[15px]">
-              <span className="text-[15px] ml-[6px]">
+              <span className="text-[15px] ml-[6px] mt-[2px]">
                 prateeksingh9941@gmail.com
               </span>
             </p>
