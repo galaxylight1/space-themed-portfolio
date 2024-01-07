@@ -46,7 +46,7 @@ const Footer = () => {
           </div>
 
           <div className="min-w-[200px] h-auto flex flex-col items-center justify-start z-[50]">
-            <div className="font-bold text-[16px]">Social Media</div>
+            <div className="font-bold text-[16px]">Social</div>
             {/* <a
               className="flex flex-row items-center my-[15px] cursor-pointer"
               target="_blank"
