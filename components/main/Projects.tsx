@@ -7,9 +7,9 @@ const Projects = () => {
       id="projects"
       className="flex flex-col items-center justify-center py-20"
     >
-      <h1 className="text-[30px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 pb-20">
+      <div className="text-[30px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 pb-20">
         Projects
-      </h1>
+      </div>
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
         <ProjectCard
           src="/insta.jpg"
