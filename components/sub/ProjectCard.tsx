@@ -1,13 +1,17 @@
+"use client";
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
+import { motion } from "framer-motion";
 
 interface Props {
   src: string;
+  url: string;
   title: string;
   description: string;
 }
 
-const ProjectCard = ({ src, title, description }: Props) => {
+const ProjectCard = ({ src, url, title, description }: Props) => {
   return (
     <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61]">
       <Image
@@ -15,7 +19,7 @@ const ProjectCard = ({ src, title, description }: Props) => {
         alt={title}
         width={1000}
         height={1000}
-        className="w-full object-contain"
+        className="w-full object-contain cursor-pointer"
       />
 
       <div className="relative p-4">

@@ -8,23 +8,32 @@ const Projects = () => {
       className="flex flex-col items-center justify-center py-20"
     >
       <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 pb-20">
-        My Projects
+        Projects
       </h1>
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
         <ProjectCard
-          src="/NextWebsite.png"
-          title="Modern Next.js Portfolio"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          src="/insta.jpg"
+          title="Instagram Reels Clone"
+          url="https://github.com/galaxylight1/instagram-reels-clone"
+          description="Share fun and engaging videos."
         />
         <ProjectCard
-          src="/CardImage.png"
-          title="Interactive Website Cards"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          src="/covid.jpg"
+          url=""
+          title="Automated COVID-19 Updates"
+          description="Get updates on twitter from verified sources."
         />
         <ProjectCard
-          src="/SpaceWebsite.png"
-          title="Space Themed Website"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          src="/excel2.jpg"
+          url=""
+          title="MS Excel Clone"
+          description="Use it just like the real excel."
+        />
+        <ProjectCard
+          src="/camera2.jpg"
+          url=""
+          title="Camera App"
+          description="Take photos and videos with filters."
         />
       </div>
     </div>
