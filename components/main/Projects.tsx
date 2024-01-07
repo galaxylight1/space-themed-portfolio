@@ -13,7 +13,7 @@ const Projects = () => {
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
         <ProjectCard
           src="/insta.jpg"
-          title="Instagram Reels Clone"
+          title="Reels Clone"
           url="https://github.com/galaxylight1/instagram-reels-clone"
           description="Share fun and engaging videos."
         />
@@ -26,13 +26,13 @@ const Projects = () => {
         <ProjectCard
           src="/excel2.jpg"
           url="https://github.com/galaxylight1/excel-clone"
-          title="MS Excel Clone"
+          title="Excel Clone"
           description="Use it just like the real excel."
         />
         <ProjectCard
           src="/camera2.jpg"
           url="https://github.com/galaxylight1/camera-app"
-          title="Camera App"
+          title="Camera Filters"
           description="Take photos and videos with filters."
         />
       </div>
