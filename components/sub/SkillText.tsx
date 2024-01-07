@@ -30,7 +30,7 @@ const SkillText = () => {
         variants={slideInFromRight(0.5)}
         className="cursive text-[25px] text-gray-200 mb-10 mt-[10px] text-center"
       >
-        Tech stacks I have worked with..
+        Tech stacks I have worked with
       </motion.div>
     </div>
   );
