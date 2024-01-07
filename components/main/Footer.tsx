@@ -35,26 +35,26 @@ const Footer = () => {
               <SiLeetcode />
               <span className="text-[15px] ml-[6px]">LeetCode</span>
             </a>
-            <a
+            {/* <a
               className="flex flex-row items-center my-[15px] cursor-pointer"
               target="_blank"
               href="https://discordapp.com/users/prateeksingh99"
             >
               <RxDiscordLogo />
               <span className="text-[15px] ml-[6px]">Discord</span>
-            </a>
+            </a> */}
           </div>
 
           <div className="min-w-[200px] h-auto flex flex-col items-center justify-start z-[50]">
             <div className="font-bold text-[16px]">Social Media</div>
-            <a
+            {/* <a
               className="flex flex-row items-center my-[15px] cursor-pointer"
               target="_blank"
               href="https://www.instagram.com/itsprateeksingh/"
             >
               <RxInstagramLogo />
               <span className="text-[15px] ml-[6px]">Instagram</span>
-            </a>
+            </a> */}
             <a
               className="flex flex-row items-center my-[15px] cursor-pointer"
               target="_blank"

@@ -29,7 +29,7 @@ export const HeroContent = () => {
 
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
+          className="flex flex-col gap-6 mt-5 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
         >
           <span>
             Hi. It&apos;s
@@ -40,16 +40,16 @@ export const HeroContent = () => {
             .{/* project experience */}
           </span>
         </motion.div>
-        <motion.p
+        {/* <motion.p
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
           I&apos;m a Full Stack Developer with experience in Web and Mobile
           Software Engineering. Check out my projects and skills.
-        </motion.p>
+        </motion.p> */}
         <motion.a
           variants={slideInFromLeft(1)}
-          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px] inline-flex items-center justify-between p-[10px]"
+          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px] inline-flex items-center justify-between p-[10px] mt-5"
           href="mailto:prateeksingh9941@gmail.com"
         >
           <MailIcon className="text-[#b49bff] mr-[5px] h-7 w-7" />

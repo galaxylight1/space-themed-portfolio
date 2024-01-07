@@ -45,7 +45,7 @@ const Encryption = () => {
 
       <div className="absolute z-[20] bottom-[10px] px-[5px]">
         <div className="cursive text-[25px] font-medium text-center text-gray-300">
-          From the creators of
+          Some..
         </div>
       </div>
 
