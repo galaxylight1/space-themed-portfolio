@@ -11,7 +11,7 @@ import { SparklesIcon } from "@heroicons/react/solid";
 const SkillText = () => {
   return (
     <div className="w-full h-auto flex flex-col items-center justify-center">
-      <motion.div
+      {/* <motion.div
         variants={slideInFromTop}
         className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9] mt-8 mb-5"
       >
@@ -19,10 +19,10 @@ const SkillText = () => {
         <h1 className="Welcome-text text-[13px]">
           It all starts with an idea..
         </h1>
-      </motion.div>
+      </motion.div> */}
       <motion.div
         variants={slideInFromLeft(0.5)}
-        className="text-[30px] text-white font-medium mt-[10px] text-center mb-[15px]"
+        className="text-[30px] text-white font-medium mt-[30px] text-center mb-[15px]"
       >
         Skills
       </motion.div>
