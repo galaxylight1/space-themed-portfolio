@@ -13,14 +13,16 @@ interface Props {
 
 const ProjectCard = ({ src, url, title, description }: Props) => {
   return (
-    <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61]">
-      <Image
-        src={src}
-        alt={title}
-        width={1000}
-        height={1000}
-        className="w-full object-contain cursor-pointer"
-      />
+    <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] z-[50]">
+      <a target="_blank" href={url}>
+        <Image
+          src={src}
+          alt={title}
+          width={1000}
+          height={1000}
+          className="w-full object-contain cursor-pointer"
+        />
+      </a>
 
       <div className="relative p-4">
         <h1 className="text-2xl font-semibold text-white">{title}</h1>

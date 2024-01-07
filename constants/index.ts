@@ -1,3 +1,11 @@
+import {
+  RxDiscordLogo,
+  RxGithubLogo,
+  RxInstagramLogo,
+  RxLinkedinLogo,
+} from "react-icons/rx";
+import { SiLeetcode } from "react-icons/si";
+
 export const Skill_data = [
   {
     skill_name: "Html 5",
@@ -82,15 +90,21 @@ export const Skill_data = [
 export const Socials = [
   {
     name: "LinkedIn",
-    src: "/linkedinlogo.svg",
+    src: "/linkedin3.svg",
+    url: "https://www.linkedin.com/in/prateeksingh9941/",
+    icon: RxLinkedinLogo,
   },
   {
-    name: "Facebook",
-    src: "/facebook.svg",
+    name: "GitHub",
+    src: "/github-142-svgrepo-com.svg",
+    url: "https://github.com/galaxylight1",
+    icon: RxGithubLogo,
   },
   {
-    name: "Discord",
+    name: "LeetCode",
     src: "/discord.svg",
+    url: "https://leetcode.com/galaxylight/",
+    icon: SiLeetcode,
   },
 ];
 

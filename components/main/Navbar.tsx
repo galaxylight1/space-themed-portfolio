@@ -1,8 +1,16 @@
 import React from "react";
 import Image from "next/image";
 import { Socials } from "@/constants";
+// import {
+//   RxDiscordLogo,
+//   RxGithubLogo,
+//   RxInstagramLogo,
+//   RxLinkedinLogo,
+// } from "react-icons/rx";
+// import { SiLeetcode } from "react-icons/si";
 
 const Navbar = () => {
+  // const navIcons = { RxLinkedinLogo, RxGithubLogo, SiLeetcode };
   return (
     <div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-10">
       <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px]">
@@ -38,14 +46,10 @@ const Navbar = () => {
         </div>
 
         <div className="flex flex-row gap-5">
-          {Socials.map((social) => (
-            <Image
-              src={social.src}
-              alt={social.name}
-              key={social.name}
-              width={24}
-              height={24}
-            />
+          {Socials.map((social, key) => (
+            <a target="_blank" href={social.url} key={key}>
+              <social.icon className="text-white h-7 w-7" />
+            </a>
           ))}
         </div>
       </div>

@@ -9,6 +9,7 @@ import {
 } from "@/utils/motions";
 import Image from "next/image";
 import { SparklesIcon } from "@heroicons/react/solid";
+import MailIcon from "@heroicons/react/solid/MailIcon"
 
 export const HeroContent = () => {
   return (
@@ -48,9 +49,10 @@ export const HeroContent = () => {
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
-          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px] inline-flex items-center justify-between p-[10px]"
           href="mailto:prateeksingh9941@gmail.com"
         >
+          <MailIcon className="text-[#b49bff] mr-[5px] h-7 w-7" />
           Send me an email!
         </motion.a>
       </div>

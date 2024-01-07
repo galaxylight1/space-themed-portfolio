@@ -19,19 +19,19 @@ const Projects = () => {
         />
         <ProjectCard
           src="/covid.jpg"
-          url=""
+          url="https://github.com/galaxylight1/automated-covid19-updates-on-twitter"
           title="Automated COVID-19 Updates"
           description="Get updates on twitter from verified sources."
         />
         <ProjectCard
           src="/excel2.jpg"
-          url=""
+          url="https://github.com/galaxylight1/excel-clone"
           title="MS Excel Clone"
           description="Use it just like the real excel."
         />
         <ProjectCard
           src="/camera2.jpg"
-          url=""
+          url="https://github.com/galaxylight1/camera-app"
           title="Camera App"
           description="Take photos and videos with filters."
         />
