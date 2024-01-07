@@ -44,8 +44,8 @@ export const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          I&apos;m a Full Stack Developer with experience in Web, Mobile and
-          Software Engineering. Checkout my projects and skills.
+          I&apos;m a Full Stack Developer with experience in Web and Mobile
+          Software Engineering. Check out my projects and skills.
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
