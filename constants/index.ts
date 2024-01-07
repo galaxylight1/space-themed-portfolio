@@ -171,7 +171,7 @@ export const Frontend_skill = [
   },
   {
     skill_name: "NestJS",
-    Image: "/nestjs.svg",
+    Image: "/nestjs2.svg",
     width: 80,
     height: 80,
   },
