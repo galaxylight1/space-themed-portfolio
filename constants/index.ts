@@ -228,7 +228,7 @@ export const Backend_skill = [
   },
   {
     skill_name: "Grafana",
-    Image: "/grafana_icon.svg",
+    Image: "/grafana2.png",
     width: 70,
     height: 70,
   },
@@ -255,7 +255,7 @@ export const Full_stack = [
   // },
   {
     skill_name: "Git",
-    Image: "/git-logo.svg",
+    Image: "/git2.svg",
     width: 80,
     height: 80,
   },
