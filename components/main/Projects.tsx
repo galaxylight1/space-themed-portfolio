@@ -20,7 +20,7 @@ const Projects = () => {
         <ProjectCard
           src="/covid.jpg"
           url="https://github.com/galaxylight1/automated-covid19-updates-on-twitter"
-          title="Automated COVID-19 Updates"
+          title="COVID-19 Updates"
           description="Get updates on twitter from verified sources."
         />
         <ProjectCard

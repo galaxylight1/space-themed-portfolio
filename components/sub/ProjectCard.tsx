@@ -20,7 +20,7 @@ const ProjectCard = ({ src, url, title, description }: Props) => {
           alt={title}
           width={1000}
           height={1000}
-          className="w-full object-contain cursor-pointer opacity-85"
+          className="object-contain cursor-pointer opacity-85"
         />
       </a>
 
