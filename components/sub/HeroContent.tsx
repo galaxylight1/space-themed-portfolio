@@ -53,7 +53,7 @@ export const HeroContent = () => {
           href="mailto:prateeksingh9941@gmail.com"
         >
           <MailIcon className="text-[#b49bff] mr-[5px] h-7 w-7" />
-          Send me an email
+          Get in touch
         </motion.a>
       </div>
 
