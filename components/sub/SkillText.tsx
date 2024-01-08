@@ -22,16 +22,16 @@ const SkillText = () => {
       </motion.div> */}
       <motion.div
         variants={slideInFromLeft(0.5)}
-        className="text-[30px] text-white font-medium mt-[30px] text-center mb-[15px]"
+        className="text-[30px] text-white font-medium mt-[20px] text-center mb-[15px]"
       >
         Skills
       </motion.div>
-      <motion.div
+      {/* <motion.div
         variants={slideInFromRight(0.5)}
         className="cursive text-[25px] text-gray-200 mb-10 mt-[10px] text-center"
       >
         Tech stacks I have worked with
-      </motion.div>
+      </motion.div> */}
     </div>
   );
 };
