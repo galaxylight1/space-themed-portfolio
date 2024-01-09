@@ -28,8 +28,8 @@ export const Skill_data = [
   {
     skill_name: "Java",
     Image: "/java.png",
-    width: 65,
-    height: 65,
+    width: 60,
+    height: 60,
   },
   {
     skill_name: "C++",
@@ -136,8 +136,8 @@ export const Frontend_skill = [
   {
     skill_name: "jQuery",
     Image: "/jquery2.png",
-    width: 80,
-    height: 80,
+    width: 65,
+    height: 65,
   },
   // {
   //   skill_name: "Css",
